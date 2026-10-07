@@ -22,7 +22,7 @@ y_data = torch.tensor([
 
 model = LinerarModel()
 criterion = torch.nn.MSELoss(size_average=False)
-optimizer = torch.optim.SGD(model.Linerar.parameters(), lr = 0.01)
+optimizer = torch.optim.SGD(m odel.Linerar.parameters(), lr = 0.01)
 
 for epoch in range(1000):
     y_pred = model(x_data)
